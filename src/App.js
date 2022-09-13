@@ -1,4 +1,6 @@
-import "./App.css";
+import houses from "./data/house";
+import teams from "./data/team";
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -7,13 +9,15 @@ import Map from "./components/Map";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 
+import "./App.css";
+
 function App() {
   return (
     <div className="main">
       <Navbar />
       <Hero />
-      <Project />
-      <About />
+      <Project houses={houses} />
+      <About teams={teams} />
       <Contact />
       <Map />
       <Footer />

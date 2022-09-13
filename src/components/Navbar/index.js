@@ -12,17 +12,17 @@ const Navbar = () => {
       <nav className={style.nav}>
         <ul>
           <li>
-            <a href="#" className={style.link}>
+            <a href="#project" className={style.link}>
               Project
             </a>
           </li>
           <li>
-            <a href="#" className={style.link}>
+            <a href="#service" className={style.link}>
               Service
             </a>
           </li>
           <li>
-            <a href="#" className={style.link}>
+            <a href="#about" className={style.link}>
               About
             </a>
           </li>
