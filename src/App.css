@@ -4,6 +4,9 @@
   --grey: #dddddd;
   --white: #f7f7f7;
 }
+::selection {
+  background-color: var(--orange);
+}
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -133,6 +136,14 @@ ul {
   border: none;
   background-color: var(--white);
   color: var(--dark);
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+.card-cta:hover {
+  background-color: var(--dark);
+  color: var(--white);
 }
 /* Section */
 .section {
