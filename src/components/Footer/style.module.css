@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 20px 0;
+}
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--white);
+}
