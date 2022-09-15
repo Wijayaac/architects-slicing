@@ -4,7 +4,7 @@ import style from "./style.module.css";
 
 const Contact = () => {
   return (
-    <div className="section">
+    <div className="section" id="service">
       <h2 className="section-title">Contact</h2>
       <div className={style.contact}></div>
       <p className={style.copy}>

@@ -7,7 +7,7 @@ import style from "./style.module.css";
 const About = (props) => {
   const { teams } = props;
   return (
-    <div className="section">
+    <div className="section" id="about">
       <h2 className="section-title">About</h2>
       <div className={style.about}>
         <p className={style.copy}>
